@@ -145,10 +145,6 @@ public partial class DbAae202Dbugelproyecto01Context : DbContext
             entity.ToTable("roles");
 
             entity.Property(e => e.IdRol).HasColumnName("idRol");
-            entity.Property(e => e.DescriRol)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("descriRol");
             entity.Property(e => e.NombreRol)
                 .HasMaxLength(100)
                 .IsUnicode(false)
