@@ -162,7 +162,6 @@ public partial class DbAae202Dbugelproyecto01Context : DbContext
                 .HasMaxLength(12)
                 .IsUnicode(false)
                 .HasColumnName("contraUser");
-            entity.Property(e => e.EstadoUser).HasColumnName("estadoUser");
             entity.Property(e => e.FechaCreacionUser)
                 .HasColumnType("datetime")
                 .HasColumnName("fecha_creacionUser");
