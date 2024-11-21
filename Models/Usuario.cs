@@ -13,8 +13,6 @@ public partial class Usuario
 
     public DateTime? FechaCreacionUser { get; set; }
 
-    public bool? EstadoUser { get; set; }
-
     public int? IdRol { get; set; }
 
     public virtual Role? IdRolNavigation { get; set; }
